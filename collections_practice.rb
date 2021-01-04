@@ -33,6 +33,6 @@ end
 
 def find_a(array)
   array.select do |n|
-    word.chr == "a"
+    n.chr == "a"
   end
 end
