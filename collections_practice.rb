@@ -25,6 +25,6 @@ end
 def kesha_maker(array)
   array.collect do |n|
     n[2] = "$"
-    return element
+    return n
   end
 end
