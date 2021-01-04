@@ -24,6 +24,7 @@ end
 
 def kesha_maker(array)
   new_array = []
-  new_array <<  array.collect { |n| n[2] = "$" }
+  array.collect do |n| 
+  new_array << n[2] = "$" 
     return new_array
 end
