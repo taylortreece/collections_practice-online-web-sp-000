@@ -23,8 +23,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.collect do |n|
-    n[2] = "$"
-    return n
+  new_array = []
+  new_array <<  array.collect { |n| n[2] = "$" }
+    return new_array
   end
 end
