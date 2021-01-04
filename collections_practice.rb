@@ -32,7 +32,9 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  new_array = []
   array.each do |n|
-  n.start_with? "a"
+  new_array << n.start_with? "a"
 end
+return new_array
 end
